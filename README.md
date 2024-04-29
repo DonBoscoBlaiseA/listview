@@ -33,8 +33,7 @@ Program to print the list of item.
 Developed by: Don Bosco Blaise A
 Registeration Number : 212221040045
 */
-```
-
+```  
 ## activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,7 +50,7 @@ Registeration Number : 212221040045
         android:dividerHeight="1dp"
         android:footerDividersEnabled="false" />
 </LinearLayout>
-```
+```  
 ## activity_listview.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -74,7 +73,7 @@ Registeration Number : 212221040045
         android:padding="5dp"
         android:textColor="@color/black" />
 </LinearLayout>
-```
+```  
 ## MainActivity.java
 ```
 package com.example.exp07;
@@ -98,7 +97,7 @@ public class MainActivity extends Activity {
         simpleList.setAdapter(customAdapter);
     }
 }
-```
+```  
 ## CustomAdapter.java
 ```
 package com.example.exp07;
@@ -152,7 +151,7 @@ public class CustomAdapter extends BaseAdapter {
         return view;
     }
 }
-```
+```  
 
 ## OUTPUT
 ![image](https://github.com/DonBoscoBlaiseA/listview/assets/140850829/c0ded8f8-7b39-44a2-8d16-1a96090a0492)
