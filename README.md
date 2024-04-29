@@ -163,8 +163,8 @@ public class CustomAdapter extends BaseAdapter {
 ```  
 
 ## OUTPUT
-![image](https://github.com/DonBoscoBlaiseA/listview/assets/140850829/c0ded8f8-7b39-44a2-8d16-1a96090a0492)
 
+<img src="https://github.com/DonBoscoBlaiseA/listview/assets/140850829/c0ded8f8-7b39-44a2-8d16-1a96090a0492.png" height="100">
 
 ## RESULT
 Thus a Simple Android Application to create and develop the application to display the country name with image using list view in android studio is developed and executed successfully.
