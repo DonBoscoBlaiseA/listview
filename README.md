@@ -78,6 +78,7 @@ Registeration Number : 212221040045
 </LinearLayout>
 ```  
 <br>
+<br>
 
 ## MainActivity.java
 ```
