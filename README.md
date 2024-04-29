@@ -34,7 +34,6 @@ Developed by: Don Bosco Blaise A
 Registeration Number : 212221040045
 */
 ```
-<br>
 ## activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
