@@ -36,6 +36,7 @@ Registeration Number : 212221040045
 ```  
 <br>
 <br>
+
 ## activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
