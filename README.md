@@ -34,9 +34,6 @@ Developed by: Don Bosco Blaise A
 Registeration Number : 212221040045
 */
 ```  
-<br>
-<br>
-
 ## activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -77,10 +74,6 @@ Registeration Number : 212221040045
         android:textColor="@color/black" />
 </LinearLayout>
 ```  
-<br>
-<br>
-<br>
-
 ## MainActivity.java
 ```
 package com.example.exp07;
@@ -124,11 +117,7 @@ public class CustomAdapter extends BaseAdapter {
     Context context;
     String countryList[];
     int flags[];
-    LayoutInflater inflter;  
-```  
-<br>
-
-```
+    LayoutInflater inflter;
     public CustomAdapter(Context applicationContext, String[] countryList, int[] flags) {
         this.context = context;
         this.countryList = countryList;
@@ -161,14 +150,7 @@ public class CustomAdapter extends BaseAdapter {
         return view;
     }
 }
-```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+```  
 ## OUTPUT
 
 <img src="https://github.com/DonBoscoBlaiseA/listview/assets/140850829/c0ded8f8-7b39-44a2-8d16-1a96090a0492.png" height="600">
