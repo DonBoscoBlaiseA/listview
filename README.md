@@ -161,7 +161,13 @@ public class CustomAdapter extends BaseAdapter {
         return view;
     }
 }
-```  
+```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## OUTPUT
 
