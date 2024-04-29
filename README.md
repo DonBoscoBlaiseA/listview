@@ -77,6 +77,8 @@ Registeration Number : 212221040045
         android:textColor="@color/black" />
 </LinearLayout>
 ```  
+<br>
+
 ## MainActivity.java
 ```
 package com.example.exp07;
@@ -120,8 +122,11 @@ public class CustomAdapter extends BaseAdapter {
     Context context;
     String countryList[];
     int flags[];
-    LayoutInflater inflter;
+    LayoutInflater inflter;  
+```  
+<br>
 
+```
     public CustomAdapter(Context applicationContext, String[] countryList, int[] flags) {
         this.context = context;
         this.countryList = countryList;
