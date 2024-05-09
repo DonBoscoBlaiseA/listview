@@ -1,4 +1,4 @@
-package com.example.exp07;
+package com.example.imagelistview;
 
 import android.content.Context;
 import android.media.Image;
@@ -16,7 +16,6 @@ public class CustomAdapter extends BaseAdapter {
     String countryList[];
     int flags[];
     LayoutInflater inflter;
-
     public CustomAdapter(Context applicationContext, String[] countryList, int[] flags) {
         this.context = context;
         this.countryList = countryList;

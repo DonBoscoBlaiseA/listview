@@ -1,4 +1,4 @@
-package com.example.exp07;
+package com.example.imagelistview;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.widget.ListView;
 public class MainActivity extends Activity {
 
     ListView simpleList;
-    String countryList[] = {"India", "China", "australia", "Portugle", "America", "NewZealand"};
-    int flags[] = {R.drawable.india, R.drawable.china, R.drawable.australia, R.drawable.portugal, R.drawable.america, R.drawable.new_zealand};
+    String countryList[] = {"India", "Japan", "Germany", "Russia", "America", "France"};
+    int flags[] = { R.drawable.india, R.drawable.japan, R.drawable.germany, R.drawable.russia, R.drawable.america, R.drawable.france };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
